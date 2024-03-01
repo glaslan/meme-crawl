@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/AODA.css">
+		<link rel="stylesheet" href="/meme.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -17,10 +18,39 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>Slide 1</section>
-				<section data-background-image="https://i.kym-cdn.com/entries/icons/facebook/000/000/027/advicedog.jpg">Slide 2</section>
+				<section data-background-image="https://i.kym-cdn.com/entries/icons/facebook/000/000/027/advicedog.jpg">Advice Animals
+					<section></section>
+					<section><h1>Taking the internet by storm</h1></section>
+					<section><p style="background-color:#000;">The concept rapidly expanded with characters like "Courage Wolf," "Insanity Wolf," and "Philosoraptor."</p></section>
+				</section>
+				<section>
+					<h1>Meme Generator</h1>
+					<section>
+					<div class="meme-generator">
+						<label>Select an Image</label>
+						<input type="file" id="imageFileInput">
+					  
+						<label>Top Text</label>
+						<input type="text" id="topTextInput">
+					  
+						<label>Bottom Text</label>
+						<input type="text" id="bottomTextInput">
+					  
+						
+					  </div>
+					</section>
+					  <section>
+						<div class="meme-generator">
+							<canvas id="meme"></canvas>
+						</div>
+						
+					</section>
+				</section>
+				
 			</div>
 		</div>
 
+		<script src="/meme.js"></script>
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
