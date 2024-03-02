@@ -22,21 +22,30 @@
       <div class="slides">
         <section
           data-background-image="dist/PhotoFunia-1709397471.jpg"
-        ></section>
-        <section data-background-image="dist/PhotoFunia-1709397736.jpg">
-          Advice Animals
-          <section></section>
-          <section><h1>Taking the internet by storm</h1></section>
+        >
+        <aside class="notes">
+          Good morning everyone, and thank you for joining me on this tour through meme history. If you wish to follow along at your own pace, or you want play with the interactable slides you can go to the link I am posting in chat (https://glaslan.github.io/meme-crawl/). 
+        </aside></section>
+
+        <section>
           <section>
-            <p style="background-color: #000">
-              The concept rapidly expanded with characters like "Courage Wolf,"
-              "Insanity Wolf," and "Philosoraptor."
-            </p>
+            <img
+              src="dist/PhotoFunia-1709405365.jpg"
+              style="object-fit: contain;"
+            />
           </section>
+          <section>
+            <img
+              src="dist/PhotoFunia-1709400208.jpg"
+              style="object-fit: contain;"
+            />
+          </section>
+          <section></section>
+          <section></section>
         </section>
         <section>
           <section>
-            <h1>Meme Generator</h1>
+            <h1>Make a Meme</h1>
             <div class="meme-generator">
               <label>Select an Image</label>
               <input type="file" id="imageFileInput" />
@@ -69,7 +78,13 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
+        margin: 0.1,
+        minScale: 0.1,
+        maxScale: 2.0,
+        controlsLayout: 'edges',
+        controlsTutorial: true,
+        slideNumber: 'c/t',
+        progress: false,
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
