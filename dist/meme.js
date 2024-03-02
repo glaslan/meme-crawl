@@ -37,7 +37,7 @@ function updateMemeCanvas(canvas, image, topText, bottomText) {
   const ctx = canvas.getContext("2d");
   const width = image.width;
   const height = image.height;
-  const fontSize = Math.floor(width / 10);
+  const fontSize = Math.floor(width / 15);
   const yOffset = height / 25;
 
   // Update canvas background
@@ -47,7 +47,7 @@ function updateMemeCanvas(canvas, image, topText, bottomText) {
 
   // Prepare text
   ctx.strokeStyle = "black";
-  ctx.lineWidth = Math.floor(fontSize / 4);
+  ctx.lineWidth = Math.floor(fontSize / 5);
   ctx.fillStyle = "white";
   ctx.textAlign = "center";
   ctx.lineJoin = "round";
